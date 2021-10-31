@@ -7,10 +7,9 @@ metadata:
 spec:
   chart:
     spec:
-      chart: examples/charts/hello-world
+      chart: charts/hello-world
       sourceRef:
         kind: GitRepository
         name: hello-world
   interval: 1m0s
   targetNamespace: production
-
